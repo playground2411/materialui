@@ -1,0 +1,5 @@
+FROM node:23.1.0
+
+COPY . .
+WORKDIR vanilla
+EXPOSE 3000
